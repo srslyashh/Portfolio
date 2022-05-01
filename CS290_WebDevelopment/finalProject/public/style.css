@@ -1,0 +1,458 @@
+
+/*  CSS FOR HOMEPAGE */
+
+*{
+	margin: 0px;
+}
+
+a{
+	color: black;
+ 	text-decoration: none;
+}
+
+a:hover{
+	color:rgb(226, 228, 230);
+}
+
+a:focus{
+	color: white;
+}
+
+header{
+	background-color: white;
+}
+
+body{
+	font-family: 'Red Hat Display', sans-serif;
+	background-color: rgb(223, 223, 223)
+}
+
+.webtitle{
+	font-family: 'Homemade Apple', cursive;
+	text-align: center;
+	font-size: 26px;
+	padding: 5px 10px 5px 15px;
+	height: 50px;
+	border: 3px rgb(247, 250, 245);
+}
+
+.menu-list{
+	background: #C4C4C4;
+	padding: 10px 2px 10px 20px;
+	border: 0px;
+}
+
+li.menulink{
+	margin: 0 10px 0 0;
+}
+.menuitem{
+	display: inline-block;
+	font-family: Poppins;
+}
+
+.menuitem::after, .navitem::before{
+	content: "\00a0";
+}
+
+.menulist{
+	list-style-type: none;
+}
+
+.menu-bar{
+	padding-left: 0px;
+}
+
+.menubar-search{
+	float: right;
+	padding: 0px 45px 0px 0px;
+}
+
+#menubar-search-input{
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 15px;
+	padding: 0px 2px 0px 3px;
+	color:  rgb(120, 117, 116);
+	border-radius: 2px;
+	border: 1px solid #dadada;
+	height: 22.5px;
+	width: 210px;
+}
+
+.homepage-background{
+	background-image: url(https://b.zmtcdn.com/data/pictures/chains/8/19546988/e9f25f9e9daf2e355e7c44b5877c46ba.jpg);
+	min-width:100%;
+	min-height: 100%;
+	position: absolute;
+	background-image: contain;
+	background-position: center;
+	background-position: no-repeat;
+}
+
+
+.homepage-searchbar{
+	padding: 300px;
+	text-align: center;
+}
+
+
+#homepage-searchbar-input{
+	font-family: 'Red Hat Display', sans-serif;
+	font-size: 30px;
+	padding: 0px 2px 0px 3px;
+	color:  rgb(120, 117, 116);
+	width:500px;
+	border-radius: 2px;
+	border: 1px solid #dadada;
+}
+
+#menubar-search-button{
+	position: absolute;
+	top: 72px;
+	right: 25px;
+	border: none;
+	background: none;
+	font-size: 15px;
+}
+
+#menubar-search-button:hover{
+	color: white;
+	cursor: pointer;
+}
+
+#search-button-home{
+	color: white;
+	/*
+	position: absolute;
+	top: 5px;
+	right: 580px;
+	*/
+	font-size: 30px;
+	background: black;
+	border-radius: 2px;
+	border: 1px solid #dadada;
+	font-family: 'Red Hat Display', sans-serif;
+	text-align: center;
+}
+
+#search-button-home:hover{
+	color: rgb(214, 187, 196);
+	cursor: pointer;
+}
+
+
+/*
+	RECIPE.CSS
+*/
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+	flex-direction: row;
+  padding: 55px 179px 75px 179px;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: rgb(223, 223, 223)
+	/* min-height: 1080px;  */
+}
+
+.recipe-card {
+  flex: 0 1 10%;
+  background-color: #D3C6C6;
+  border: 1px solid #fff;
+  padding: 10px;
+  text-align: left;
+	font-family: 'Poppins';
+	color: rgba(0, 0, 0, 0.5);
+  margin: 8px;
+	max-width: 300px;
+	max-height: 360px;
+	border-radius: 2px;
+}
+
+.recipe-img {
+	text-align: center;
+  width: 292px;
+	height: 265px;
+	object-fit: cover;
+	border: 4px solid #fff;
+}
+
+#recipe-favorite{
+	position: relative;
+  left: 275px;
+	bottom: 24px;
+	color: white;
+	font-size: 20px;
+	border: none;
+	background: none;
+}
+
+#recipe-favorite:hover{
+	color: rgb(224, 156, 179);
+	cursor: pointer;
+}
+
+#recipe-favorite:focus{
+	color: rgb(181, 101, 128);
+}
+
+.recipe-title {
+	font-weight: bold;
+}
+
+/*
+	BUILDER CSS
+*/
+
+.hidden {
+	display: none;
+}
+
+.modal-dialog {
+	width: auto;
+	max-width: 1000px;
+	min-width: 350px;
+	min-height: 300px;
+	margin: 40px auto;
+	border-radius: 15px;
+
+  }
+
+  .modal-header {
+	position: relative;
+	padding: 10px 20px;
+  }
+
+  .modal-header h3 {
+	margin: 0;
+	font-size: 28px;
+  }
+
+  #modal-close {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	font-size: 48px;
+	border: none;
+	background: none;
+	padding: 0;
+	cursor: pointer;
+  }
+
+  .modal-body {
+	padding: 20px;
+  }
+
+  .recipe-input-element {
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+	margin: 10px 0;
+  }
+
+  .recipe-input-element label {
+	font-weight: 600;
+	flex: 1 75px;
+	margin-right: 10px;
+  }
+
+  .recipe-input-element input,
+  .recipe-input-element textarea {
+	flex: 6 200px;
+	padding: 8px;
+	font-size: 20px;
+	border: 1px solid #aaa;
+  }
+
+  .recipe-input-element textarea {
+	min-height: 200px;
+  }
+
+  .modal-footer {
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px 10px 20px 10px;
+  }
+
+  .modal-footer button {
+	font-size: 20px;
+	background-color: #fff;
+	color: #333;
+	border: 1px solid #333;
+	border-radius: 5px;
+	padding: 10px;
+	margin-right: 20px;
+	cursor: pointer;
+  }
+
+  .modal-footer .modal-cancel-button:hover {
+	background-color: #eee;
+  }
+
+  .modal-footer .modal-accept-button {
+	background-color: #919191;
+	color: #fff;
+  }
+
+  .modal-footer .modal-accept-button:hover {
+	background-color: #7a7a7a;
+  }
+
+
+
+#create-recipe-button {
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	height: 50px;
+	width: 150px;
+	border: none;
+	border-radius: 30px;
+	font-size: 16px;
+	background-color: #494949;
+	color: #fff;
+	cursor: pointer;
+	box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+}
+#create-recipe-button:hover,
+#create-recipe-button:focus {
+  right: 27px;
+  bottom: 27px;
+  height: 55px;
+  width: 160px;
+  border-radius: 33px;
+  font-size: 18px;
+  background-color: #747474;
+}
+
+#create-recipe-button:focus {
+  outline: none;
+}
+
+/*
+ *	RECIPEVIEW CSS
+ */
+
+ .recipe-container {
+		padding: 55px 179px 75px 179px;
+	  align-items: center;
+	  background-color: rgb(223, 223, 223);
+	  max-height: 1080px;
+  }
+
+  .recipe-img-view {
+	  text-align: center;
+	  width: 550px;
+	  height: 550px;
+	  object-fit: cover;
+	  border: 4px solid #fff;
+  }
+
+  .ingredients-header {
+	  font-size: xx-large;
+	  padding: 20px 0 0 50px;
+  }
+
+  .recipe-view {
+	flex: 0 1 10%;
+	background-color: #D3C6C6;
+	border: 1px solid #fff;
+	padding: 10px;
+	text-align: left;
+	  font-family: 'Poppins';
+	  color: rgba(0, 0, 0, 0.5);
+		margin: 8px;
+	  max-width: 565px;
+	  max-height: 565px;
+	  border-radius: 2px;
+		position: absolute;
+		top: 150px;
+		left: 100px;
+  }
+
+  .img-container-view {
+		padding: 0px 500px 0px 0px;
+		text-align: center;
+  }
+
+  .recipe-title-view {
+	  font-weight: bold;
+	  font-size: 30px;
+	  padding: 30px 0 0 50px;
+		position: relative;
+		top: -600px;
+		left: 550px;
+
+  }
+
+  .recipe-author-view {
+	  font-size: large;
+	  padding: 0 0 0 50px;
+		position: relative;
+		font-weight: 500;
+		font-size: 20px;
+		top: -600px;
+		left:550px;
+  }
+
+  .recipe-time-view{
+	  font-style: italic;
+	  font-size: large;
+	  padding: 20px 0 0 50px;
+		position: relative;
+		top: -600px;
+		left:550px;
+  }
+
+  .recipe-servings-view {
+	  font-style: italic;
+	  font-size: large;
+	  padding: 0 0 0 50px;
+		position: relative;
+		top: -600px;
+		left:550px;
+  }
+
+	.ingredients-header{
+		position: relative;
+		top: -600px;
+		left:550px;
+	}
+
+  .ingredients {
+	  padding: 0 0 0 50px;
+		position: relative;
+		min-width: 600px;
+		top: -600px;
+		left:550px;
+  }
+
+  .instructions-header {
+	font-size: xx-large;
+	padding: 20px 0 0 50px;
+	position: relative;
+	top: -600px;
+	left:550px;
+  }
+
+  .instructions {
+	padding: 0px 0px 100px 50px;
+	min-width: 600px;
+	position: relative;
+	font-size: 17px;
+	top: -600px;
+	left:550px;
+  }
+
+	/*
+
+	ERRORPAGE.css
+
+	*/
+
+	.error-page{
+		padding: 250px;
+		text-align: center;
+		font-size: 35px;
+	}

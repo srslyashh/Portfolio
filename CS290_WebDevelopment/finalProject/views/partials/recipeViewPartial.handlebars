@@ -1,0 +1,31 @@
+<main class="recipe-container">
+	<section class="recipe-view">
+		<div class="img-container-view">
+	    	<img class="recipe-img-view" src="{{url}}"/>
+		</div>
+    	<div class="recipe-title-view">
+	    	{{title}}
+		</div>
+    	<div class="recipe-author-view">
+        by:	{{author}}
+	    </div>
+		<div class="recipe-time-view">
+			<i class="fas fa-clock"></i> Time: {{duration}} mins
+	    </div>
+    	<div class="recipe-servings-view">
+			<p><i class="fas fa-user-friends"></i> serves {{serving}} </p>
+		</div>
+    	<div class="ingredients-header">
+        	Ingredients
+	    </div>
+    	<div class="ingredients">
+        	{{ingredients}}
+	    </div>
+		<div class="instructions-header">
+			Instructions
+		</div>
+		<div class="instructions">
+			{{instructions}} 
+		</div>
+	</section>
+</main>

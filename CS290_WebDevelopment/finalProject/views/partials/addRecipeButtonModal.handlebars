@@ -1,0 +1,51 @@
+<button type="button" id="create-recipe-button"><i class="fas fa-utensils"></i> Add Recipe</button>
+
+<div id="create-recipe-modal" class="hidden">
+	<div class="modal-dialog">
+
+	<div class="modal-header">
+		<h3>Create a Recipe</h3>
+		<button type="button" id="modal-close" class="modal-hide-button">&times;</button>
+	</div>
+
+	<div class="modal-body">
+		<div class="recipe-input-element">
+			<label for="title-input">Title</label>
+			<input type="text" id="title-input">
+		</div>
+
+		<div class="recipe-input-element">
+			<label for="ingredients-input">Ingredients</label>
+			<textarea id="ingredients-input"></textarea>
+
+			<label for="instructions-input">Instructions</label>
+			<textarea id="instructions-input"></textarea>
+		</div>
+
+		<div class="recipe-input-element">
+			<label for="duration-input">Duration</label>
+			<input type="text" id="duration-input">
+
+			<label for="serving-input">Serving</label>
+			<input type="text" id="serving-input">
+		</div>
+
+		<div class="recipe-input-element">
+			<label for="author-input">Recipe by</label>
+			<input type="text" id="author-input">
+		</div>
+
+		<div class="recipe-input-element">
+			<label for="url-input">Image URL</label>
+			<input type="text" id="url-input">
+		</div>
+		
+	</div>
+
+	<div class="modal-footer">
+		<button type="button" class="modal-accept-button">Create Recipe</button>
+		<button type="button" class="modal-clear-button">Clear</button>
+	</div>
+
+	</div>
+</div>

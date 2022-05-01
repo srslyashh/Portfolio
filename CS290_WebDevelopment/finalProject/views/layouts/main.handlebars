@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Yummy Recipe</title>
+
+		<!-- CSS FILE -->
+		<link rel="stylesheet" href="/style.css" media="screen">
+
+		<!-- FONTSSSS -->
+
+				<!-- the font for the search bar -->
+				<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+
+				<!-- font for the rest of the website -->
+				<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+				<!--  Font for the title  -->
+				<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+
+		<!-- ICONSSSSS -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" crossorigin="anonymous">
+		<!-- THE ICONS CODE
+			<i class="fas fa-heart"></i>
+			<i class="fas fa-user-friends"></i>
+			<i class="fas fa-clock"></i>
+			<i class="fas fa-utensils"></i>
+		-->
+
+		<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.runtime.js"></script>
+    	<script src="/index.js" charset="utf-8" defer></script>
+		<script src="/search.js" charset="utf-8" defer></script>
+		<script src="/recipeCardTemplate.js" charset="utf-8" defer></script>
+
+	</head>
+
+	<body>
+		<header>
+		<h1 class="webtitle"></i> Yummy Recipe </h1>
+
+		<menu class="menu-bar">
+        <ul class="menu-list">
+          <li class="menuitem menulink"><a href="/">Home</a></li>
+          <li class="menuitem menulink"><a href="/recipe">Recipes</a></li>
+          <li class="menuitem menulink"><a href="#">Favorites</a></li>
+          <li class="menuitem menubar-search">
+            <input type="text" id="menubar-search-input" placeholder="Search by ingredient...">
+				<button type="button" id="menubar-search-button"><i class="fas fa-search"></i>
+          </li>
+        </ul>
+      </menu>
+	  </header>
+
+		{{{body}}}
+
+	</body>
+</html>
