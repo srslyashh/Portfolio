@@ -1,0 +1,5 @@
+setup: 
+	gcc --std=gnu99  line_processor.c -o line_processor -lm -pthread
+
+clean:
+	rm lineprocessor
