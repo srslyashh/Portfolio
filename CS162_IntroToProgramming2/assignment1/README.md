@@ -4,6 +4,16 @@
 ## Description
 A C++ program that asks user to input 2 existing files, then based on those two files, create a spell book catalog where accessing restrictions and searching for spell books could be done. The program needs to ensure that these two files exist, before continuing. The first existing file will contain spell book information and spell book that the program will display. The second existing file will contain the list of wizards that can have access. After confirming that these two files exist, the program will continue to wizard login where the user is prompted to enter an ID and password. The ID must be all integer, and both the ID and password have to match with the information given in one of the files.
 
+## Command 
+
+Run the program with: 
+
+      make
+
+Then, run: 
+
+      ./project spellbooks.txt wizards.txt
+
 ## Requirements
 
 **1. Requirements Command Line Arguments**
