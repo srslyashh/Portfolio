@@ -1,5 +1,6 @@
 # Linked List Implementation 
 ###### CS 162 - Winter 2020 at Oregon State University
+###### Kathleen Ashley
 
 ## Description 
 
