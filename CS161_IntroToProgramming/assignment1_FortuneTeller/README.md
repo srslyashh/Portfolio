@@ -4,7 +4,18 @@
 ## Description 
 A C++ program that predicts the user's future whether good or bad based on the user's input.
 
+## Command 
+
+To run the program, enter the following command: 
+
+    g++ assignment1.cpp
+
+Then: 
+
+    ./a.out
+
 ## Requirements
+
 1. Write a program that has enough prompts for the fill in the blanks in the fortune.
 2. Must use at least 3 different types from 8 options: short, unsigned short, int, unsigned int, long, unsigned long, float, double.
 3. Print out the fortune with the (5 or more) blanks filled in.
