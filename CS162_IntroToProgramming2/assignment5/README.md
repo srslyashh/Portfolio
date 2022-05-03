@@ -1,10 +1,7 @@
-Name : Kathleen Ashley
-ONID : 934239494
-Section : CS162
-Assignment 5 - due 12/07/2020
-================================================================================
+# Linked List Implementation 
+###### CS 162 - Winter 2020 at Oregon State University
 
-Description:
+## Description 
 
 Welcome to C++ Linked list implementation. In this program, you'll be able to
 store integers into a linked list. The program would be able to sort the Linked
@@ -12,30 +9,24 @@ list in either ascending or descending mode. After that, the program will print
 out the sorted linked list, and tell you the total amount of prime numbers
 found within the linked list!
 
-Instructions:
+## Instructions 
+1. Compile your program with 
+	```make```
+2. Run the program with 
+	```./project```
+3. You start by inputting the first value in the linked list:
 
-1) Compile your program with
+	```Please enter a number:
+	   90```
 
-		make
-
-2) Run the program with
-
-		./project
-
-3) You start by inputting the first value in the linked list.
-
-	Please enter a number:
-	90
-
-	Your linked list would look something like this:
-	90
+	 Your linked list would look something like this:
+	 90
 
 	Now, after you have been prompted for the first value in the linked list,
 	you will be prompted for other options:
 
-	==============================================================================
 
-	1. Add more members to the linked list
+	-  Add more members to the linked list
 
 			After the first value has been stored in the linked list, the program
 			will ask whether or not you want to input another value.
