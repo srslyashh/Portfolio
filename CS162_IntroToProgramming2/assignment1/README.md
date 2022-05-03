@@ -8,11 +8,11 @@ A C++ program that asks user to input 2 existing files, then based on those two 
 
 **1. Requirements Command Line Arguments**
 
-When starting the program, the user will provide two command line arguments. The first command line argument will be the name of the file that holds the informa!on about the wizards. The second command line argument will be the name of the file that contains the informa!on about spellbooks and included spells. If the user does not provide two names of existing files the program should print out an error message and quit. You can assume that the user always provides these two command line arguments in the correct order.
+When starting the program, the user will provide two command line arguments. The first command line argument will be the name of the file that holds the information about the wizards. The second command line argument will be the name of the file that contains the information about spellbooks and included spells. If the user does not provide two names of existing files the program should print out an error message and quit. You can assume that the user always provides these two command line arguments in the correct order.
 
 **2. Wizard Login**
 
-Before the user can get information from the program they must login. You must prompt the user for an ID and password. The ID of the must be all integers. If it isn’t, you must re-prompt the user for an ID that is only ints. You will then prompt the user for the password. The password will be a string that could contain any number of characters and numbers. You do not need to do any error handling on the password. You will then need to check this informa!on against the wizard_info.txt file contents to determine which wizard is logging in. If there is no match, you must reprompt for both username and password again. If the user fails to login a$er three a%empts, you must provide an error message and quit out of the program. (Note: If the user provides an ID that is not all integers that should not count as an error towards the three a%empts that they have to login). A$er a user logs in, you must display the corresponding name, ID, school posi!on, and beard length
+Before the user can get information from the program they must login. You must prompt the user for an ID and password. The ID of the must be all integers. If it isn’t, you must re-prompt the user for an ID that is only ints. You will then prompt the user for the password. The password will be a string that could contain any number of characters and numbers. You do not need to do any error handling on the password. You will then need to check this information against the wizard_info.txt file contents to determine which wizard is logging in. If there is no match, you must reprompt for both username and password again. If the user fails to login a$er three a%empts, you must provide an error message and quit out of the program. (Note: If the user provides an ID that is not all integers that should not count as an error towards the three a%empts that they have to login). A$er a user logs in, you must display the corresponding name, ID, school position, and beard length
 
 **3. Sorting and Printing**
 
@@ -37,7 +37,7 @@ There are five types of spells: fire, bubble, memory_loss, death, poison.
 
 **3. Sort by average success rate of spells**
 
-You must create a list of books sorted by the average success rate of all the spells contained within the book. Once calculated, you should print/write to file the !tle of each applicable book and the corresponding average success rate. Books with a spell that have an effect of death or poison should not be displayed when a student is logged in (i.e. hide those books from the results when a student is logged in).
+You must create a list of books sorted by the average success rate of all the spells contained within the book. Once calculated, you should print/write to file the title of each applicable book and the corresponding average success rate. Books with a spell that have an effect of death or poison should not be displayed when a student is logged in (i.e. hide those books from the results when a student is logged in).
 
 **4. Quit: The program will exit.**
 
