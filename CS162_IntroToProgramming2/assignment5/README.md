@@ -40,10 +40,9 @@ found within the linked list!
 
 	Afterwards, You will be given two options: 
 
-	Choose the following: 
-	
-			(1)  Add member without index. 
-			(2)  Add member with index. 
+		Choose the following: 
+		(1)  Add member without index. 
+		(2)  Add member with index. 
 
 	- If you choose 1, you will be prompted to enter a value, and the push_back() function will be run. 
 	- If you choose 2, you will be prompted to enter a value and index on which you want
