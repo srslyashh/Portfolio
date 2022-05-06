@@ -30,11 +30,11 @@ This repository contains all the assignments that I have finished throughout my 
   -  Assignment 5 : String Primitives and Macros
   
 - **CS 290: Web Development**
-  -  Assignment 1 : Basic Logic and Arithmetic Program
-  -  Assignment 2 : Data Validation, Looping, and Constants
-  -  Assignment 3 : Nested Loops and Procedures
-  -  Assignment 4 : Arrays, Addressing, and Stack-Passed Parameters
-  -  Assignment 5 : String Primitives and Macros
+  -  Assignment 1 : Practicing HTML
+  -  Assignment 2 : HTML & CSS 
+  -  Assignment 3 : Adding interactions to a webpagge, manipulating DOM, and reacting to user-generated events
+  -  Assignment 4 : Utilizing Node.js to build a web server
+  -  Assignment 5 : Handlebars and Express
 
 - **CS 325: Analysis of Algorithms**
   -  Assignment 1 : Maximum Subarray Problem
