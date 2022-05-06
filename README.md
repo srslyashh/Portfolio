@@ -1,6 +1,15 @@
 # Portfolio
 This repository contains all the assignments that I have finished throughout my studies at Oregon State University.
 
+## List of Final Projects 
+  **- Yummy Recipe**
+    - A recipe builder-site for our CS 290 (Web development) final group project (built by Kathleen Ashley, Nicola Sisca, Devin Bright, Kaitlyn Holmes). 
+  **- Smallsh**
+    - Implemented smallsh in C for CS 344 (Operating systems) assignment. 
+  **- Client-Server Chat**
+    - Portfolio assignment for CS 372 (Introduction to Networks) class.
+    - This is a Client/Server chat program where the server does not handle multiple clients and only one socket connection is made. This socket will be reused for the life of the program.
+
 ## List of Classes and Assignments
 - **CS 161: Introduction to Programming 1**
   -  Assignment 1 : Fortune Teller
