@@ -1,6 +1,20 @@
 # Smallsh
 ##### CS 344 - Winter 2022 at Oregon State University
 
+## Command
+
+1) Compile the program with Makefile:
+    
+        make
+
+    Compiling the program without Makefile: 
+
+        gcc --std=gnu99 -o smallsh smallsh.c
+
+2) Run the program with: 
+
+        ./smallsh
+
 ## Functionalities 
 
 ### **1. The Command Prompt**
